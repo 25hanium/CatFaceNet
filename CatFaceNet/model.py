@@ -44,7 +44,7 @@ class FaseNet(nn.Module):
 
 def getFaseNet():
     model = FaseNet()
-    weight_path = files('ethernet_communication').joinpath('weight.pt')
+    weight_path = files('CatFaceNet').joinpath('weight.pt')
     model.load_state_dict(torch.load(weight_path, map_location='cpu', weights_only=True))
     
     return model
