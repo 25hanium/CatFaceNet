@@ -2,7 +2,7 @@
 
 - Install
   
-      pip install git+https://github.com/25hanium/CatFaceNet
+      pip install git+https://github.com/25hanium/CatFaceNet.git
 
 - Examle
   
